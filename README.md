@@ -1,4 +1,4 @@
-#Craft-IT Beer Challenge
+# Craft-IT Beer Challenge
 
 Welcome to our Front End Development Challenge!
 
@@ -21,7 +21,7 @@ The following is a requirement:
 * Be (at least) open to a fulltime/parttime position in our team __and take part in an interview__. You receive the bounty no matter if you are really becoming a team-member or not.
 * By participating you accept that sending out invitations on submissions is at Craft-IT's solely discretion. No submissions will be accepted later than Sunday, May 21 2017, 23:59:59 CET!
 
-##Workflow
+## Workflow
 Use the API of [BreweryDB](http://www.brewerydb.com/developers/docs) to get a
 list of all beer styles.
 
@@ -37,20 +37,22 @@ your programming skills, so don't make it too easy for you.
 We are looking into your code the following week/weeks and get back to you as soon as possible.
 We are all just humans here, so please add any documentation/instruction in a way that we understand it.
 
-##Bonus Features
+## Bonus Features
 - add a filter for list of styles (e.g. "Wit" hides all except "Witbier")
 - selecting a beer from the collection opens a popup with more detailed information
 - add filter by brewery
 - sort by Name/ABV/IBU/whatever
 - take care of responsiveness
 
-##BreweryDB API
+## BreweryDB API
 [Register at BreweryDB.com](https://www.brewerydb.com/auth/signup) and create your API key.
 The API is free with up to 400 requests per day, so be wise and cache where possible!
 
 Since BreweryDB API requests do not support CORS including "Access-Control-Allow-Origin"
 header and others, we created a simple node application that maps
 [brewerydb-node](https://github.com/ronandi/brewerydb-node) calls to a local server application (endpoint `/beer`).
+
+Enter the API Key to `config.json: "brewerydb_api_key"`.
 
 To use the local server, type once `npm install`, then for every usage `npm start` and visit `localhost:9696` in your browser.
 
@@ -60,7 +62,7 @@ the provided application. You are even free to adjust or extend this server appl
 Considering the limitation of requests per day, the provided wrapper has a built-in cache as JSON files.
 Use `npm run cleanup` to remove all the stored cache files.
 
-###API for Styles
+### API for Styles
 [BreweryDB API](http://www.brewerydb.com/developers/docs-endpoint/style_index) should look like
 
 ```
@@ -75,7 +77,7 @@ Using the provided wrapper:
 
 Both are returning the same object with `data` as an array of styles.
 
-###API for beers
+### API for beers
 [BreweryDB API](http://www.brewerydb.com/developers/docs-endpoint/beer_index) should look like
 
 ```
@@ -92,7 +94,7 @@ Using the provided wrapper:
 
 Both are returning an object with `data` as an array of beers.
 
-Notice a little difference:
+*Notice a difference:*
 
 - `numberOfPages` (BreweryDB API) is called `numPages` (Wrapper)
 - `currentPage` (BreweryDB API) is called `page` (Wrapper)
