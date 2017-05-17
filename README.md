@@ -21,6 +21,8 @@ The following is a requirement:
 * Be (at least) open to a fulltime/parttime position in our team __and take part in an interview__. You receive the bounty no matter if you are really becoming a team-member or not.
 * By participating you accept that sending out invitations on submissions is at Craft-IT's solely discretion. No submissions will be accepted later than Sunday, May 21 2017, 23:59:59 CET!
 
+In case you have missed the submission deadline, you still have the chance to submit your work until Sunday, May 28 2017, but then *you will not receive the money as reward*.
+
 ## Workflow
 Use the API of [BreweryDB](http://www.brewerydb.com/developers/docs) to get a
 list of all beer styles.
@@ -87,7 +89,7 @@ Both are returning the same object with `data` as an array of styles.
 Using the provided wrapper:
 
 ```
-/beer/style/<styleId>
+/beer/style/<styleId>  (same as page=1)
 /beer/style/<styleId>/page/<page>
 ```
 
