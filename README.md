@@ -16,7 +16,7 @@ The following is a requirement:
 
 * When finished, publish your work somewhere on github
 * Do it __on your own__ - this is not a group task
-* and submit it __not later than May 21, 23:59:59__ and notify stefan@craft-it.co or add `opusonline` to your github (`stefanbenicke` on bitbucket)!
+* and submit it __not later than May 21 2017, 23:59:59__ and notify stefan@craft-it.co or add `opusonline` to your github (`stefanbenicke` on bitbucket)!
 * When your code is selected as one of the winners, you have to come in and prove it during a code review
 * Be (at least) open to a fulltime/parttime position in our team __and take part in an interview__. You receive the bounty no matter if you are really becoming a team-member or not.
 * By participating you accept that sending out invitations on submissions is at Craft-IT's solely discretion. No submissions will be accepted later than Sunday, May 21 2017, 23:59:59 CET!
