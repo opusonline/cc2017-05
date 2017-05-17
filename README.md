@@ -25,7 +25,7 @@ In case you have missed the submission deadline, you still have the chance to su
 
 ## Workflow
 Use the API of [BreweryDB](http://www.brewerydb.com/developers/docs) to get a
-list of all beer styles.
+list of all beer styles. Skip all styles for Cider.
 
 Let the user select one to multiple styles and additionally choose
 [ABV](https://en.wikipedia.org/wiki/Alcohol_by_volume) (min, max, no limit) and
