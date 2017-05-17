@@ -1,4 +1,4 @@
-# Craft-IT Beer Challenge
+# Craft-IT Coding (Beer) Challenge
 
 Welcome to our Front End Development Challenge!
 
